@@ -23,6 +23,7 @@ namespace Topic_5._5_More_Classes
             die2.RollDie();
 
             Console.WriteLine("Welcome to the Casino!");
+            Console.WriteLine($"You have {bankMoney}$ in your account");
             Console.WriteLine("How much would you like to bet on the dice?");
             bet = Convert.ToDouble(Console.ReadLine());
             if (bet < 0 )
