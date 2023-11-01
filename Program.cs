@@ -127,6 +127,21 @@ namespace Topic_5._5_More_Classes
                         Console.WriteLine($"Congrats you won, since you picked even sum you won your bet {bet + bankMoney}");
                         Console.WriteLine($"Your new balance is {bankMoney}");
                     }
+                    else if (die1.Roll + die2.Roll == 8)
+                    {
+                        Console.WriteLine($"Congrats you won, since you picked even sum you won your bet {bet + bankMoney}");
+                        Console.WriteLine($"Your new balance is {bankMoney}");
+                    }
+                    else if (die1.Roll + die2.Roll == 10)
+                    {
+                        Console.WriteLine($"Congrats you won, since you picked even sum you won your bet {bet + bankMoney}");
+                        Console.WriteLine($"Your new balance is {bankMoney}");
+                    }
+                    else if (die1.Roll + die2.Roll == 12)
+                    {
+                        Console.WriteLine($"Congrats you won, since you picked even sum you won your bet {bet + bankMoney}");
+                        Console.WriteLine($"Your new balance is {bankMoney}");
+                    }
                     else
                     {
                         Console.WriteLine($"Unfortunate you lost, since you picked even sum you lost your bet {bet - bankMoney}");
@@ -141,6 +156,21 @@ namespace Topic_5._5_More_Classes
                         Console.WriteLine($"Your new balance is {bankMoney}");
                     }
                     else if (die1.Roll - die2.Roll == 5)
+                    {
+                        Console.WriteLine($"Congrats you won, since you picked odd sum you won your bet {bet + bankMoney}");
+                        Console.WriteLine($"Your new balance is {bankMoney}");
+                    }
+                    else if (die1.Roll - die2.Roll == 7)
+                    {
+                        Console.WriteLine($"Congrats you won, since you picked odd sum you won your bet {bet + bankMoney}");
+                        Console.WriteLine($"Your new balance is {bankMoney}");
+                    }
+                    else if (die1.Roll - die2.Roll == 9)
+                    {
+                        Console.WriteLine($"Congrats you won, since you picked odd sum you won your bet {bet + bankMoney}");
+                        Console.WriteLine($"Your new balance is {bankMoney}");
+                    }
+                    else if (die1.Roll - die2.Roll == 11)
                     {
                         Console.WriteLine($"Congrats you won, since you picked odd sum you won your bet {bet + bankMoney}");
                         Console.WriteLine($"Your new balance is {bankMoney}");
